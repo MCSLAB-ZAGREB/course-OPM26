@@ -33,16 +33,6 @@ The course is organized into three connected parts:
    - limiting and stationary distributions
    - simulation of stochastic processes
 
-
-## Requirements
-
-Before using this repository, install:
-
-- [Git](https://git-scm.com/downloads)
-- [uv](https://docs.astral.sh/uv/getting-started/installation/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-
-
 ## Repository structure
 
 
@@ -59,3 +49,37 @@ course-OPM26/
 ├── lectures/          # Handwritten Lecture notes
 └── homework/          # Homework assignments
 ```
+
+## Requirements
+
+Before using this repository, install:
+
+- [Git](https://git-scm.com/downloads)
+- [uv](https://docs.astral.sh/uv/getting-started/installation/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+Check that Git and uv are installed:
+
+```bash
+git --version
+uv --version
+```
+
+## Clone the repository
+
+Choose a folder where you keep course materials and run:
+
+```bash
+git clone https://github.com/MCSLAB-ZAGREB/course-OPM26.git
+cd course-OPM26
+```
+
+## Create the Python environment
+
+Run:
+
+```bash
+uv sync
+```
+
+This creates the Python environment defined by the repository.
