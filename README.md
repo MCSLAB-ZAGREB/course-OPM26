@@ -1,6 +1,6 @@
-# Selected topics in mathematics 2025/2026
+# Selected Topics in Mathematics 2025/2026
 
-Course materials for Selected topics in mathematics
+Course materials for Selected Topics in Mathematics
 
 ## Course webpage
 
