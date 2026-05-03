@@ -18,3 +18,21 @@ Before using this repository, install:
 - [Git](https://git-scm.com/downloads)
 - [uv](https://docs.astral.sh/uv/getting-started/installation/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+
+
+## Repository structure
+
+
+```text
+course-OPM26/
+├── README.md          # Main repository description and instructions
+├── LICENSE            # License for course materials and code
+├── pyproject.toml     # Python project configuration and dependencies
+├── uv.lock            # Locked dependency versions for reproducibility
+├── .python-version    # Python version used by uv
+├── .gitignore         # Files and folders ignored by Git
+│
+├── notebooks/         # Jupyter notebooks used in lectures
+├── lectures/          # Handwritten Lecture notes
+└── homework/          # Homework assignments
+```
