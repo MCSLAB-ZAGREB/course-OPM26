@@ -11,6 +11,29 @@ Official course webpage at the University of Zagreb Faculty of Electrical Engine
 
 This repository contains Jupyter notebooks, Python code, exercises, and supporting materials for the course. The goal is to make all computational examples reproducible on Windows, macOS, and Linux.
 
+## Course structure
+
+The course is organized into three connected parts:
+
+1. **Computational discrete mathematics**
+   - enumeration of finite sets and combinatorial objects
+   - generation of subsets, functions, permutations, and partitions
+   - explicit computer construction of mathematical structures
+
+2. **Mathematical modelling and numerical simulation**
+   - function approximation
+   - weak formulation of boundary value problems
+   - finite element discretization
+   - implementation of the finite element method for the Poisson problem and the heat equation
+
+3. **Probability, Monte Carlo methods, and Markov chains**
+   - introduction to Monte Carlo simulation
+   - Markov chains and transition matrices
+   - classification of states
+   - limiting and stationary distributions
+   - simulation of stochastic processes
+
+
 ## Requirements
 
 Before using this repository, install:
